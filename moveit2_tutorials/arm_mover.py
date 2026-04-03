@@ -32,7 +32,7 @@ def main():
     # define the "up" pose as joint angles in radians
     # these are the 6 joint angles (one per joint) that put the arm straight up
     # radians are used because thats how ROS2 and MoveIt2 measure joint positions
-    home_position = [0.0, -1.5708, 0.0, -3.1416, 0.0, 0.0]
+    up_position = [0.0, -1.5708, 0.0, -3.1416, 0.0, 0.0]
 
     # send the goal to move_group - this triggers the full pipeline:
     # move_group receives goal -> OMPL plans trajectory -> ros2_control executes -> gazebo simulates
