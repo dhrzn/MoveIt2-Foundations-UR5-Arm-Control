@@ -45,8 +45,10 @@ ros2 launch ur_simulation_gz ur_sim_moveit.launch.py ur_type:=ur5
 ```
 
 ## Demo
+### poser_mover.py demo
+https://github.com/user-attachments/assets/7e2328d4-c468-473c-830e-42f12e2d8230
 
-My.Movie.12.mov
+### cartesian_mover.py demo
 
 ## Key Concepts
 
@@ -54,8 +56,7 @@ My.Movie.12.mov
 - Quaternion orientation (x, y, z, w) — unit quaternion rule: x² + y² + z² + w² = 1.0
 - MoveIt2 pipeline: pymoveit2 → move_group → OMPL → ros2_control → Gazebo
 - Cartesian path planning: cartesian=True forces straight line end effector motion instead of unpredictable OMPL paths
-## Demo
 
 
 
-https://github.com/user-attachments/assets/7e2328d4-c468-473c-830e-42f12e2d8230
+
