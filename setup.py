@@ -26,7 +26,7 @@ setup(
         'console_scripts': [
             'arm_mover = moveit2_tutorials.arm_mover:main',
             'pose_mover = moveit2_tutorials.pose_mover:main',
-
+            'cartesian_mover = moveit2_tutorials.cartesian_mover:main',
         ],
     },
 )
